@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 15px;  
+}
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+.nav-icon>img {
+    height: 49px; 
+}
+.nav-icon>p {
+    color: #373737;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+/* line-height: normal; */
+}
+#Vertical-line {
+    height: 24px;
+    padding-inline: 10px;
+    border-left: 1px solid;
+    
+}
+.nav-lonks {
+    display: flex;
+}
+.nav-lonks>ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 18px;
+    
+}
+.nav-lonks>ul>li>a{
+    text-decoration: none;
+    color: #373737;
+    font-family: Roboto;
+    font-size: 21px;
+/* font-style: normal; */
+    font-weight: 300;
+    padding-inline: 15px;
+    margin-top: 12px;
+}
+.nav-lonks>button {
+    width: 200px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 23.5px;
+    background: #184655;
+    color: white;
+    box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+#hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98vw;
+    width: 1225px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: url("Rectangle\ 31.svg"), lightgray 50% / cover no-repeat;
+}
+.hero-body>h1{
+    color: #184655;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.search-bar {
+    width: 480px;
+    height: 78.93px;
+    flex-shrink: 0;
+    border-radius: 19px;
+    background: #FFF;
+    margin-top: 15px;
+}
+.search-bar>img {
+    width: 30px;
+    height: 25px;
+    margin-left: 15px;
+    /* flex-shrink: 0; */
+    /* margin-top: 100px; */
+}
+.search-bar>input {
+    width: 236.79px;
+    height: 22.784px;
+    flex-shrink: 0;
+    color: #727272;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%; /* 25.96px  */
+    border: none;
+}
+.search-bar>button {
+    width: 189.595px;
+    height: 78.93px;
+    flex-shrink: 0;
+    border-radius: 0px 19px 19px 0px;
+    background: #184655;
+}
+.hashtag>ul {
+    display: flex;
+    list-style-type: none;
+}
+.hashtag>ul>li {
+    top: 10px;
+    padding-inline: 18px;
+    color: #53748C;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+#hero-1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98vw;
+    width: 1225px;
+    height: 542px;
+    padding: 20px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: url("Rectangle\ 31.svg"), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 2px 2px rgba(0 ,0 ,0, 0.10);
+}
+#hero-1>img {
+    border-radius: 15px;
+    padding: 10px;
+    width: 50%;
+}
+.card-body>h1 {
+    color: #404040;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 0px;
+}
+.author {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.author>p{
+    color: rgba(111, 110, 110, 0.84);
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.text {
+    display: flex;
+width: 624px;
+height: 348px;
+/* flex-direction: column; */
+justify-content: center;
+flex-shrink: 0;
+color: #464343;
+font-family: Roboto;
+font-size: 20px;
+/* font-style: normal; */
+font-weight: 400;
+/* margin-bottom: 10px; */
+/* line-height: normal; */
+}
+.hero-2-1 {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.hero-2 {
+    width: 385.532px;
+    height: 450px;
+flex-shrink: 0;
+border-radius: 20px;
+background: linear-gradient(117deg, rgba(249, 247, 247, 0.10) 19.16%, rgba(249, 247, 247, 0.40) 80.19%);
+box-shadow: 0px 2px 20px -1px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(20px);
+margin-top: 30px;
+}
+.hero-2>img {
+    width:100%;
+    border-radius: 15px;
+   
+}
+.card-body-1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.card-body-1>h1{
+    display: flex;
+width: 394.063px;
+height: 31.654px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #4A4848;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.author-1 {
+    display: flex;
+width: 395.355px;
+height: 18.734px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-radius: 20px;
+
+}
+.author-1>p {
+    margin-left: 5px;
+    margin-right: 20px;
+    color: rgba(111, 110, 110, 0.84);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.text-1>p {
+    display: flex;
+width: 394.063px;
+height: 71.707px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #464343;
+text-align: justify;
+font-family: Segoe UI;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-3 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    width: 98vw;
+    width: 1225px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: url("Rectangle\ 31.svg"), lightgray 50% / cover no-repeat; 
+}
+.card-body-3 {
+    width: 524.656px;
+height: 164.016px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-left: 85px;
+
+}
+.card-body-3>div>button {
+    width: 251px;
+height: 49px;
+color: white;
+font-family: Roboto;
+font-size: 30px;
+flex-shrink: 0;
+font-weight: 500;
+border-radius: 23.5px;
+background: linear-gradient(92deg, #2C56AA 14.14%, #3BB08B 84.43%);
+box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+margin-top: 40px;
+}
+
+
+  
+  
